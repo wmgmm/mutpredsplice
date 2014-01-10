@@ -1,0 +1,12 @@
+##fileformat=VCFv4.1
+##source=HGMD_PRO_13.1
+##reference=GRCh37
+##fileDate=20130327
+##comment="REF and ALT sequences are both forward strand
+##INFO=<ID=GENE,Number=1,Type=String,Description="Gene name">
+##INFO=<ID=STRAND,Number=1,Type=String,Description="Gene strand">
+##INFO=<ID=CDS,Number=1,Type=String,Description="CDS annotation">
+##INFO=<ID=AA,Number=1,Type=String,Description="Peptide annotation">
+##INFO=<ID=TAG,Number=1,Type=String,Description="Mutation Category, https://portal.biobase-international.com/hgmd/pro/global.php#cats ">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+1	880905	Test	C	G	.	.	.
